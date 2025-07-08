@@ -151,4 +151,34 @@ entries:
     urls:
     - https://bpsoraggi.github.io/charts/traefik/traefik-36.3.1.tgz
     version: 36.3.1
-generated: "2025-07-08T12:50:25.103129147Z"
+  traefik-crds:
+  - annotations:
+      artifacthub.io/changes: "- \"fix(CRDs): :bug: kustomization file for CRDs\"\n-
+        \"chore(schema): update linter\"\n- \"chore(release): \U0001F680 publish v36.2.0
+        and CRDs v1.9.0\"\n"
+    apiVersion: v2
+    created: "2025-07-08T12:56:44.785162714Z"
+    description: A Traefik based Kubernetes ingress controller
+    digest: 6c57609a61d9533e393404f526b9d8f357ea56c1dc17dc4b057d7731d7803651
+    home: https://traefik.io/
+    icon: https://raw.githubusercontent.com/traefik/traefik/v2.3/docs/content/assets/img/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    - networking
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: michel.loiseleur@traefik.io
+      name: mloiseleur
+    - email: remi.buisson@traefik.io
+      name: darkweaver87
+    - name: jnoordsij
+    name: traefik-crds
+    sources:
+    - https://github.com/traefik/traefik-helm-chart
+    - https://github.com/traefik/traefik
+    type: application
+    urls:
+    - https://bpsoraggi.github.io/charts/traefik-crds/traefik-crds-1.9.1.tgz
+    version: 1.9.1
+generated: "2025-07-08T12:56:44.780826879Z"
