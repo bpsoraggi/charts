@@ -7,6 +7,36 @@ entries:
         publish 36.3.0\"\n"
     apiVersion: v2
     appVersion: v3.4.3
+    created: "2025-07-08T10:46:07.093690187Z"
+    description: A Traefik based Kubernetes ingress controller
+    digest: 5d3232c29d6d05e33bf2f9fcfe4b81cf5e00457494789981ff942024371b3929
+    home: https://traefik.io/
+    icon: https://raw.githubusercontent.com/traefik/traefik/master/docs/content/assets/img/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    - networking
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: michel.loiseleur@traefik.io
+      name: mloiseleur
+    - email: remi.buisson@traefik.io
+      name: darkweaver87
+    - name: jnoordsij
+    name: traefik
+    sources:
+    - https://github.com/traefik/traefik-helm-chart
+    - https://github.com/traefik/traefik
+    type: application
+    urls:
+    - https://bpsoraggi.github.io/charts/traefik/traefik-36.3.7.tgz
+    version: 36.3.7
+  - annotations:
+      artifacthub.io/changes: "- \"feat(deps): update traefik docker tag to v3.4.3\"\n-
+        \"feat(deployment): allow null and 0 replicas\"\n- \"chore(release): \U0001F680
+        publish 36.3.0\"\n"
+    apiVersion: v2
+    appVersion: v3.4.3
     created: "2025-07-08T10:26:33.146951207Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 776958e6f86a21ca0caf8d0dab2a02343e298e22ab5761161ad35506a31cde83
@@ -121,4 +151,4 @@ entries:
     urls:
     - https://bpsoraggi.github.io/charts/traefik/traefik-36.3.1.tgz
     version: 36.3.1
-generated: "2025-07-08T10:26:33.137292871Z"
+generated: "2025-07-08T10:46:07.084434719Z"
