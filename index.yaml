@@ -127,9 +127,9 @@ entries:
         publish 36.3.0\"\n"
     apiVersion: v2
     appVersion: v3.4.3
-    created: "2025-07-08T08:22:14.75834611Z"
+    created: "2025-07-08T12:21:17.006056185Z"
     description: A Traefik based Kubernetes ingress controller
-    digest: b140de5b64216f5f21d6a7e48bbc31c037866351b763ff4248c0a57ee1fa4808
+    digest: 053dd655805672aa8e026e003495a1ac5e6871e903820ee5b41b8ddcf341c27d
     home: https://traefik.io/
     icon: https://raw.githubusercontent.com/traefik/traefik/master/docs/content/assets/img/traefik.logo.png
     keywords:
@@ -151,4 +151,4 @@ entries:
     urls:
     - https://bpsoraggi.github.io/charts/traefik/traefik-36.3.1.tgz
     version: 36.3.1
-generated: "2025-07-08T10:46:07.084434719Z"
+generated: "2025-07-08T12:21:16.996133154Z"
