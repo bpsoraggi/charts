@@ -67,9 +67,9 @@ entries:
         publish 36.3.0\"\n"
     apiVersion: v2
     appVersion: v3.4.3
-    created: "2025-07-08T14:57:26.70849845Z"
+    created: "2025-07-08T15:06:23.062341306Z"
     description: A Traefik based Kubernetes ingress controller
-    digest: 6f28d3f49caa333a76c649844a657b90711fcea1776b1c9efa298ac5b56796ca
+    digest: 8c720b9c07cd8d851b08c11e44d1e1b69353f16563d8e9accb762dc2ded1ff83
     home: https://traefik.io/
     icon: https://raw.githubusercontent.com/traefik/traefik/master/docs/content/assets/img/traefik.logo.png
     keywords:
@@ -211,4 +211,4 @@ entries:
     urls:
     - https://bpsoraggi.github.io/charts/traefik-crds/traefik-crds-1.9.1.tgz
     version: 1.9.1
-generated: "2025-07-08T14:57:26.698321065Z"
+generated: "2025-07-08T15:06:23.053053388Z"
