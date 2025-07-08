@@ -1,0 +1,34 @@
+apiVersion: v1
+entries:
+  traefik:
+  - annotations:
+      artifacthub.io/changes: "- \"feat(deps): update traefik docker tag to v3.4.3\"\n-
+        \"feat(deployment): allow null and 0 replicas\"\n- \"chore(release): \U0001F680
+        publish 36.3.0\"\n"
+    apiVersion: v2
+    appVersion: v3.4.3
+    created: "2025-07-08T08:22:14.75834611Z"
+    description: A Traefik based Kubernetes ingress controller
+    digest: b140de5b64216f5f21d6a7e48bbc31c037866351b763ff4248c0a57ee1fa4808
+    home: https://traefik.io/
+    icon: https://raw.githubusercontent.com/traefik/traefik/master/docs/content/assets/img/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    - networking
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: michel.loiseleur@traefik.io
+      name: mloiseleur
+    - email: remi.buisson@traefik.io
+      name: darkweaver87
+    - name: jnoordsij
+    name: traefik
+    sources:
+    - https://github.com/traefik/traefik-helm-chart
+    - https://github.com/traefik/traefik
+    type: application
+    urls:
+    - https://bpsoraggi.github.io/charts/traefik/traefik-36.3.1.tgz
+    version: 36.3.1
+generated: "2025-07-08T08:22:14.748448081Z"
